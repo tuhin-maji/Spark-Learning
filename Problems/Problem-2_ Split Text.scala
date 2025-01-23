@@ -1,5 +1,5 @@
 // Databricks notebook source
-//Split one column ad create 3 columns out of it. Data is separated by '-' and always 2 '-' will be there.
+//Split one column and create 3 columns out of it. Data is separated by '-' and always 2 '-' will be there.
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions.split
 import org.apache.spark.sql.functions.col
