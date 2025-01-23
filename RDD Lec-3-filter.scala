@@ -9,6 +9,5 @@ val rdd1 = spark.sparkContext.parallelize(data)
 val filtered_rdd = rdd1.filter(x=>x%2==0)
 filtered_rdd.collect().foreach(println)
 
-// COMMAND ----------
-
+ 
 
