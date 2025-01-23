@@ -8,6 +8,6 @@ val rdd1 = spark.sparkContext.parallelize(data)
 val unique_rdd = rdd1.distinct()
 unique_rdd.collect().foreach(println)
 
-// COMMAND ----------
+ 
 
 
